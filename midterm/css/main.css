@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #95b9b5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header area, the wide image and title*/
+header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* I also added width directly in the HTML, just in case */
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 66px;
+}
+
+/* Navigation area */
+.nav-wrapper {
+    background-color: #95b9b5;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Add a separator line between nav items */
+nav li {
+    border-right: 1px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 200px;
+}
+
+nav a:hover {
+    color: #b5ebf5;
+}
+
+/* Article area */
+.article {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+article h2 {
+    font-size: 39px;
+    margin-bottom: 12px;
+}
+
+article img {
+    float: left;
+    width: 300px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Facts area */
+.facts {
+    background-color: #d5dadb;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.facts h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Contact Form area */
+.contact-form {
+    background-color: #d5dbd7;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.contact-form h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 5px 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* I just want the radios to sit next to each other... hope this works */
+.contact-form .radio {
+    display: flex; 
+    align-items: center;
+    gap: 8px; /* I added this because they were too close together */
+}
+
+/* Just making the labels bold so they stand out */
+.contact-form .radio label {
+    font-weight: bold;
+    cursor: pointer; /* I saw someone do this online, looks cool */
+}
+
+.contact-form button {
+    padding: 5px 5px;
+    background-color: #5d8578;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+/* maybe i will add a hover for the button later  */
+.contact-form button:hover {
+    background-color: #91c0b0;
+}
+
+/* Footer Section */
+footer {
+    text-align: right;
+    padding: 10px;
+    background-color: #d5dbd7;
+    margin-top: 19px;
+    font-size: 0.9rem;
+    color: #555;
+}
