@@ -40,7 +40,6 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
 }
 
 nav li {
@@ -88,7 +87,7 @@ article img {
 }
 
 .facts h2 {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -133,17 +132,15 @@ article img {
 
 .contact-form button {
     padding: 5px;
-    background-color: #40665a;
-    color: white;
-    border: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    background-color: #b4cac7;
     font-size: 1rem;
 }
-
 .contact-form button:hover {
-    background-color: #91c0b0;
+    background-color: #86aaa7;
 }
 
-/* Footer */
 footer {
     text-align: right;
     padding: 10px;
