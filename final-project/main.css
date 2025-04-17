@@ -460,7 +460,7 @@ footer {
   }
 
   .Services h2 {
-    grid-column: 1 / -0;
+    grid-column: 1 / -1;
   }
 
   .Service-item, .Service-item1, .Service-item2, .Service-item3, .Service-item4 {
